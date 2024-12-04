@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="703dp"
+        android:translationY="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/board"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="337dp"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:translationX="23dp"
+                android:translationY="28dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/cat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:translationY="30dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="334dp"
+                    android:layout_height="69dp"
+                    android:text="CAT"
+                    android:textSize="50sp"
+                    android:textStyle="bold|italic"
+                    android:translationX="25dp" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="334dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|left"
+                    android:text="Cats are domestic animals. They are small in size. Their bodies are covered with smooth fur. They have two mesmerizing eyes, two highly sensitive ears, four legs, whiskers under their nose and a long tail."
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:translationX="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
