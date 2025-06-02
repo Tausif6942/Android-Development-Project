@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -54,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="right|left"
                     android:text="Cats are domestic animals. They are small in size. Their bodies are covered with smooth fur. They have two mesmerizing eyes, two highly sensitive ears, four legs, whiskers under their nose and a long tail."
-                    android:textAlignment="center"
+                    android:textAlignment="textStart"
                     android:textSize="30sp"
                     android:translationX="25dp" />
             </LinearLayout>
@@ -63,3 +65,4 @@
 
     </androidx.cardview.widget.CardView>
 </LinearLayout>
+</layout>
